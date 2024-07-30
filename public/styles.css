@@ -22,6 +22,13 @@ main {
     padding: 2rem;
 }
 
+#about{
+    background: #FCEFED;
+    padding: 2rem;
+    align-items: center;
+    font-size: 20px;
+}
+
 section {
     margin-bottom: 2rem;
 }
