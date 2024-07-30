@@ -27,10 +27,20 @@ section {
 }
 
 #hero {
+    font-size: 20px;
     background: #f4f4f4;
     padding: 2rem;
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
+
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 
 form {
     display: flex;
@@ -48,6 +58,7 @@ form input, form textarea {
 
 form button {
     margin-top: 1rem;
+    margin-bottom: 2rem;
     padding: 0.5rem;
     background: #333;
     color: #fff;
@@ -56,6 +67,7 @@ form button {
 }
 
 footer {
+    margin-top: 2rem;
     background: #333;
     color: #fff;
     text-align: center;
