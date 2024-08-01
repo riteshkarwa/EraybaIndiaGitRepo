@@ -18,6 +18,9 @@ header nav a {
     text-decoration: none;
 }
 
+#main-header{
+    display: flex;
+}
 main {
     padding: 2rem;
 }
@@ -25,6 +28,7 @@ main {
 nav{
     font-size: 30px;
 }
+
 #about{
     background: #FCEFED;
     padding: 2rem;
@@ -35,7 +39,6 @@ nav{
 .inlineRight {
     display: table-cell;
     text-align: right;
-    padding-left: 600px ;
 }
 .inlineLeft {
     display: table-cell;
