@@ -109,14 +109,13 @@ footer {
 --pill:#f3f4f6;
 --shadow: 0 8px 24px rgba(0,0,0,.06);
 }
-*{box-sizing:border-box}
-html,body{height:100%}
+
 body{
 margin:0; font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
 color:var(--ink); background:var(--bg);
 line-height:1.55;
 }
-.page{max-width:1120px; margin:auto; padding:32px 20px 80px}
+
 
 
 header{display:flex; align-items:baseline; gap:12px; margin-bottom:28px}
