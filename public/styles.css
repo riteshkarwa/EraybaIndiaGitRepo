@@ -88,6 +88,7 @@ form button {
 }
 
 footer {
+    padding-top : 10px;
     margin-top: 2rem;
     background: #333;
     color: #fff;
@@ -99,7 +100,6 @@ footer {
 }
 
 /* new code for eplex */
-
 
 
 .card{background:var(--card); border:1px solid var(--rule); border-radius:18px; box-shadow:var(--shadow); overflow:hidden}
