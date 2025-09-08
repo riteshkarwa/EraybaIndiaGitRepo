@@ -100,8 +100,16 @@ footer {
 }
 
 /* new code for eplex */
+:root{
+    --bg:#fafafa;
+    --card:#ffffff;
+    --ink:#1f2937;
+    --muted:#6b7280;
+    --rule:#e5e7eb;
+    --pill:#f3f4f6;
+    --shadow:0 8px 24px rgba(0,0,0,.06);
+}
 
-/*
 .card{background:var(--card); border:1px solid var(--rule); border-radius:18px; box-shadow:var(--shadow); overflow:hidden}
 .row{display:grid; grid-template-columns:110px 1fr 160px; gap:20px; align-items:start; padding:22px}
 .row + .row{border-top:1px solid var(--rule)}
@@ -118,7 +126,7 @@ footer {
 .size{display:flex; align-items:center; justify-content:flex-end; gap:8px; color:#374151}
 .size .ml{font-weight:700}
 .size .oz{color:var(--muted)}
-*/
+
 
 /* Color tags for product codes */
 .E01{color:#c5a200} /* warm gold */
